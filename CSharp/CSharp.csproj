@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{51A69899-7BF1-4AD6-8C21-01136329EAFB}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CSharp</RootNamespace>
+    <AssemblyName>CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Aspose.Slides.Examples.CSharp.RunExamples</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Aspose.Cells, Version=17.10.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
+      <HintPath>..\packages\Aspose.Cells.17.10\lib\net40\Aspose.Cells.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Aspose.Slides, Version=17.10.0.0, Culture=neutral, PublicKeyToken=716fcc553a201e56, processorArchitecture=MSIL">
+      <HintPath>..\packages\Aspose.Slides.NET.17.10\lib\net4.0-client\Aspose.Slides.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Charts\SetChartDataFromWorkBook.cs" />
+    <Compile Include="Charts\MultiCategoryChart.cs" />
+    <Compile Include="Charts\SetInvertFillColorChart.cs" />
+    <Compile Include="Charts\SetDataRange.cs" />
+    <Compile Include="Charts\AddCustomError.cs" />
+    <Compile Include="Charts\AddErrorBars.cs" />
+    <Compile Include="Charts\AnimatingCategoriesElements.cs" />
+    <Compile Include="Charts\AnimatingSeries.cs" />
+    <Compile Include="Charts\AnimatingSeriesElements.cs" />
+    <Compile Include="Charts\AutomaticChartSeriescolor.cs" />
+    <Compile Include="Charts\ChangeChartCategoryAxis.cs" />
+    <Compile Include="Charts\DisplayChartLabels.cs" />
+    <Compile Include="Charts\DisplayPercentageAsLabels.cs" />
+    <Compile Include="Charts\DoughnutChartHole.cs" />
+    <Compile Include="Charts\ManagePropertiesCharts.cs" />
+    <Compile Include="Charts\PieChart.cs" />
+    <Compile Include="Charts\SecondPlotOptionsforCharts.cs" />
+    <Compile Include="Charts\SetAutomaticSeriesFillColor.cs" />
+    <Compile Include="Charts\SetCategoryAxisLabelDistance.cs" />
+    <Compile Include="Charts\SetChartSeriesOverlap.cs" />
+    <Compile Include="Charts\SetDataLabelsPercentageSign.cs" />
+    <Compile Include="Charts\SetGapWidth.cs" />
+    <Compile Include="Charts\SetlegendCustomOptions.cs" />
+    <Compile Include="Charts\SetMarkerOptions.cs" />
+    <Compile Include="Charts\SwitchChartRowColumns.cs" />
+    <Compile Include="Presentations\Properties\AddCustomDocumentProperties.cs" />
+    <Compile Include="Presentations\Conversion\ConversionToTIFFNotes.cs" />
+    <Compile Include="Presentations\Conversion\ConvertIndividualSlide.cs" />
+    <Compile Include="Presentations\Conversion\ConvertNotesSlideViewToPDF.cs" />
+    <Compile Include="Presentations\Conversion\ConvertSlidesToPdfNotes.cs" />
+    <Compile Include="Presentations\Conversion\ConvertPresentationToPasswordProtectedPDF.cs" />
+    <Compile Include="Presentations\Conversion\ConvertSpecificSlideToPDF.cs" />
+    <Compile Include="Presentations\Conversion\ConvertToPDFWithHiddenSlides.cs" />
+    <Compile Include="Presentations\Conversion\ConvertWholePresentationToHTML.cs" />
+    <Compile Include="Rendering-Printing\RenderComments.cs" />
+    <Compile Include="Shapes\AddVideoFrameFromWebSource.cs" />
+    <Compile Include="Shapes\ImageAsEMF.cs" />
+    <Compile Include="Shapes\StretchOffsetLeftForPictureFrame.cs" />
+    <Compile Include="Slides\CRUD\AddNotesSlideWithNotesStyle.cs" />
+    <Compile Include="Text\AddEmbeddedFonts.cs" />
+    <Compile Include="Text\AddingSuperscriptAndSubscriptTextInTextFrame.cs" />
+    <Compile Include="Text\EndParaGraphProperties.cs" />
+    <Compile Include="Text\GetFontsFolders.cs" />
+    <Compile Include="Text\ManageEmbeddedFonts.cs" />
+    <Compile Include="Presentations\Conversion\ConvetToSWF.cs" />
+    <Compile Include="Presentations\Conversion\CreateNewPresentation.cs" />
+    <Compile Include="Presentations\Conversion\CustomOptionsPDFConversion.cs" />
+    <Compile Include="Presentations\Conversion\ExportMediaFilestohtml.cs" />
+    <Compile Include="Presentations\Opening\GetFileFormat.cs" />
+    <Compile Include="Presentations\Opening\GetPositionCoordinatesofPortion.cs" />
+    <Compile Include="Presentations\Opening\GetRectangularCoordinatesofParagraph.cs" />
+    <Compile Include="ActiveX\LinkingVideoActiveXControl.cs" />
+    <Compile Include="ActiveX\ManageActiveXControl.cs" />
+    <Compile Include="Presentations\Properties\UpdatePresentationPropertiesUsingPropertiesOfAnotherPresentationAsATemplate.cs" />
+    <Compile Include="Presentations\Properties\UpdatePresentationPropertiesUsingNewTemplate.cs" />
+    <Compile Include="Presentations\Properties\UpdatePresentationProperties.cs" />
+    <Compile Include="Presentations\Conversion\PresentationToTIFFWithCustomImagePixelFormat.cs" />
+    <Compile Include="Presentations\Conversion\PresentationToTIFFWithDefaultSize.cs" />
+    <Compile Include="Presentations\Saving\SaveAsPredefinedViewType.cs" />
+    <Compile Include="Presentations\Saving\SaveToStream.cs" />
+    <Compile Include="Rendering-Printing\SetSlideNumber.cs" />
+    <Compile Include="Rendering-Printing\SetZoom.cs" />
+    <Compile Include="Presentations\Opening\VerifyingPresentationWithoutloading.cs" />
+    <Compile Include="Rendering-Printing\DefaultPrinterPrinting.cs" />
+    <Compile Include="Rendering-Printing\SpecificPrinterPrinting.cs" />
+    <Compile Include="Shapes\AccessingAltTextinGroupshapes.cs" />
+    <Compile Include="Shapes\AddRelativeScaleHeightPictureFrame.cs" />
+    <Compile Include="Shapes\ApplyBevelEffects.cs" />
+    <Compile Include="Shapes\ChangeOLEObjectData.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Shapes\FillShapeswithSolidColor.cs" />
+    <Compile Include="Slides\CRUD\AccessSlidebyID.cs" />
+    <Compile Include="Slides\CRUD\AccessSlidebyIndex.cs" />
+    <Compile Include="Slides\Comments\AccessSlideComments.cs" />
+    <Compile Include="Slides\Layout\AddLayoutSlides.cs" />
+    <Compile Include="Slides\Comments\AddSlideComments.cs" />
+    <Compile Include="Slides\CRUD\CloneAnotherPresentationAtSpecifiedPosition.cs" />
+    <Compile Include="Slides\Media\ExtractVideo.cs" />
+    <Compile Include="Slides\Transitions\ManagingBetterSlideTransitions.cs" />
+    <Compile Include="Slides\Transitions\ManageSimpleSlideTransitions.cs" />
+    <Compile Include="Slides\Hyperlink\RemoveHyperlinks.cs" />
+    <Compile Include="Slides\Notes\RemoveNotesAtSpecificSlide.cs" />
+    <Compile Include="Slides\Notes\RemoveNotesFromAllSlides.cs" />
+    <Compile Include="Slides\Layout\SetPDFPageSize.cs" />
+    <Compile Include="Slides\Transitions\SetTransitionEffects.cs" />
+    <Compile Include="Slides\Layout\SetSizeAndType.cs" />
+    <Compile Include="SmartArts\AccessSmartArtParticularLayout.cs" />
+    <Compile Include="SmartArts\ChangeSmartArtLayout.cs" />
+    <Compile Include="SmartArts\ChangeSmartArtShapeColorStyle.cs" />
+    <Compile Include="SmartArts\ChangeSmartArtState.cs" />
+    <Compile Include="SmartArts\ChangSmartArtShapeStyle.cs" />
+    <Compile Include="Shapes\CloneShapes.cs" />
+    <Compile Include="Shapes\ConnectShapesUsingConnectors.cs" />
+    <Compile Include="Shapes\ConnectShapeUsingConnectionSite.cs" />
+    <Compile Include="Shapes\CreateBoundsShapeThumbnail.cs" />
+    <Compile Include="Shapes\CreateGroupShape.cs" />
+    <Compile Include="Shapes\CreateScalingFactorThumbnail.cs" />
+    <Compile Include="Shapes\CreateShapeThumbnail.cs" />
+    <Compile Include="Shapes\CreateSmartArtChildNoteThumbnail.cs" />
+    <Compile Include="Shapes\Hidingshapes.cs" />
+    <Compile Include="Shapes\SetAlternativeText.cs" />
+    <Compile Include="SmartArts\ChangeTextOnSmartArtNode.cs" />
+    <Compile Include="SmartArts\CheckSmartArtHiddenProperty.cs" />
+    <Compile Include="SmartArts\FillFormatSmartArtShapeNode.cs" />
+    <Compile Include="SmartArts\OrganizeChartLayoutType.cs" />
+    <Compile Include="Tables\AddImageinsideTableCell.cs" />
+    <Compile Include="Tables\CellSplit.cs" />
+    <Compile Include="Tables\CloningInTable.cs" />
+    <Compile Include="Tables\MergeCell.cs" />
+    <Compile Include="Tables\MergeCells.cs" />
+    <Compile Include="Tables\StandardTables.cs" />
+    <Compile Include="Tables\VerticallyAlignText.cs" />
+    <Compile Include="Text\ManageParagraphPictureBulletsInPPT.cs" />
+    <Compile Include="Text\UseCustomFonts.cs" />
+    <Compile Include="VBA\AddVBAMacros.cs" />
+    <Compile Include="Text\ApplyInnerShadow.cs" />
+    <Compile Include="Text\ApplyOuterShadow.cs" />
+    <Compile Include="Text\CustomRotationAngleTextframe.cs" />
+    <Compile Include="Text\LineSpacing.cs" />
+    <Compile Include="Text\ManageParagraphFontProperties.cs" />
+    <Compile Include="VBA\RemoveVBAMacros.cs" />
+    <Compile Include="Text\ReplaceFontsExplicitly.cs" />
+    <Compile Include="Text\RotatingText.cs" />
+    <Compile Include="Text\RuleBasedFontsReplacement.cs" />
+    <Compile Include="Text\SetAnchorOfTextFrame.cs" />
+    <Compile Include="Text\SetAutofitOftextframe.cs" />
+    <Compile Include="Text\SetTextFontProperties.cs" />
+    <Compile Include="RunExamples.cs" />
+    <Compile Include="Charts\ChartEntities.cs" />
+    <Compile Include="Charts\NormalCharts.cs" />
+    <Compile Include="Charts\ScatteredChart.cs" />
+    <Compile Include="Charts\ChartTrendLines.cs" />
+    <Compile Include="Charts\ExistingChart.cs" />
+    <Compile Include="Charts\NumberFormat.cs" />
+    <Compile Include="Presentations\Properties\AccessOpenDoc.cs" />
+    <Compile Include="Presentations\Conversion\PPTtoPPTX.cs" />
+    <Compile Include="Presentations\Conversion\ConvertPresentationToResponsiveHTML.cs" />
+    <Compile Include="Presentations\Conversion\ConvertWithCustomSize.cs" />
+    <Compile Include="Presentations\Conversion\ConvertNotesSlideView.cs" />
+    <Compile Include="Presentations\Conversion\ConvertWithXpsOptions.cs" />
+    <Compile Include="Presentations\Conversion\ConvertWithoutXpsOptions.cs" />
+    <Compile Include="Presentations\Conversion\ConvertWithNoteToTiff.cs" />
+    <Compile Include="Presentations\Conversion\ConvertToPDF.cs" />
+    <Compile Include="Presentations\Properties\AccessBuiltinProperties.cs" />
+    <Compile Include="Presentations\Properties\AccessModifyingProperties.cs" />
+    <Compile Include="Presentations\Properties\ModifyBuiltinProperties.cs" />
+    <Compile Include="Presentations\Properties\AccessProperties.cs" />
+    <Compile Include="Presentations\Opening\OpenPresentation.cs" />
+    <Compile Include="Presentations\Opening\OpenPasswordPresentation.cs" />
+    <Compile Include="Presentations\Saving\RemoveWriteProtection.cs" />
+    <Compile Include="Presentations\Saving\SaveAsReadOnly.cs" />
+    <Compile Include="Presentations\Saving\SaveToFile.cs" />
+    <Compile Include="Presentations\Saving\SaveWithPassword.cs" />
+    <Compile Include="Presentations\Saving\SaveProperties.cs" />
+    <Compile Include="Shapes\AddAudioFrame.cs" />
+    <Compile Include="Shapes\FormattedEllipse.cs" />
+    <Compile Include="Shapes\SimpleEllipse.cs" />
+    <Compile Include="Shapes\AddArrowShapedLineToSlide.cs" />
+    <Compile Include="Shapes\AddArrowShapedLine.cs" />
+    <Compile Include="Shapes\AddPlainLineToSlide.cs" />
+    <Compile Include="Shapes\AddStretchOffsetForImageFill.cs" />
+    <Compile Include="Shapes\PictureFrameFormatting.cs" />
+    <Compile Include="Shapes\AddVideoFrame.cs" />
+    <Compile Include="Shapes\AnimationsOnShapes.cs" />
+    <Compile Include="Shapes\ConnectorLineAngle.cs" />
+    <Compile Include="Shapes\EmbeddedVideoFrame.cs" />
+    <Compile Include="Shapes\FillShapesGradient.cs" />
+    <Compile Include="Shapes\FillShapesPattern.cs" />
+    <Compile Include="Shapes\FillShapesPicture.cs" />
+    <Compile Include="Shapes\FindShapeInSlide.cs" />
+    <Compile Include="Shapes\FormatJoinStyles.cs" />
+    <Compile Include="Shapes\FormatLines.cs" />
+    <Compile Include="Shapes\AccessOLEObjectFrame.cs" />
+    <Compile Include="Shapes\AddOLEObjectFrame.cs" />
+    <Compile Include="Shapes\FormattedRectangle.cs" />
+    <Compile Include="Shapes\SimpleRectangle.cs" />
+    <Compile Include="Shapes\RotatingShapes.cs" />
+    <Compile Include="Slides\CRUD\AccessSlides.cs" />
+    <Compile Include="Slides\CRUD\AddSlides.cs" />
+    <Compile Include="Slides\CRUD\ChangePosition.cs" />
+    <Compile Include="Slides\CRUD\CloneToAnotherPresentationWithMaster.cs" />
+    <Compile Include="Slides\CRUD\CloneWithInSamePresentation.cs" />
+    <Compile Include="Slides\CRUD\CloneAtEndOfAnother.cs" />
+    <Compile Include="Slides\CRUD\CloneAtEndOfAnotherSpecificPosition.cs" />
+    <Compile Include="Slides\CRUD\CloneWithinSamePresentationToEnd.cs" />
+    <Compile Include="Slides\CRUD\CreateSlidesSVGImage.cs" />
+    <Compile Include="Slides\Thumbnail\ThumbnailFromSlideInNotes.cs" />
+    <Compile Include="Slides\Thumbnail\ThumbnailWithUserDefinedDimensions.cs" />
+    <Compile Include="Slides\Thumbnail\ThumbnailFromSlide.cs" />
+    <Compile Include="Slides\Transitions\BetterSlideTransitions.cs" />
+    <Compile Include="Slides\Transitions\SimpleSlideTransitions.cs" />
+    <Compile Include="Slides\CRUD\RemoveSlideUsingIndex.cs" />
+    <Compile Include="Slides\CRUD\RemoveSlideUsingReference.cs" />
+    <Compile Include="Slides\Background\SetBackgroundToGradient.cs" />
+    <Compile Include="Slides\Background\SetImageAsBackground.cs" />
+    <Compile Include="Slides\Background\SetSlideBackgroundMaster.cs" />
+    <Compile Include="Slides\Background\SetSlideBackgroundNormal.cs" />
+    <Compile Include="SmartArts\AccessChildNodes.cs" />
+    <Compile Include="SmartArts\AccessSmartArt.cs" />
+    <Compile Include="SmartArts\AccessChildNodeSpecificPosition.cs" />
+    <Compile Include="SmartArts\AccessSmartArtShape.cs" />
+    <Compile Include="SmartArts\CreateSmartArtShape.cs" />
+    <Compile Include="SmartArts\AddNodes.cs" />
+    <Compile Include="SmartArts\AddNodesSpecificPosition.cs" />
+    <Compile Include="SmartArts\RemoveNodeSpecificPosition.cs" />
+    <Compile Include="SmartArts\RemoveNode.cs" />
+    <Compile Include="SmartArts\AssistantNode.cs" />
+    <Compile Include="SmartArts\SmartArtNodeLevel.cs" />
+    <Compile Include="Tables\UpdateExistingTable.cs" />
+    <Compile Include="Tables\RemovingRowColumn.cs" />
+    <Compile Include="Tables\TableWithCellBorders.cs" />
+    <Compile Include="Tables\TableFromScratch.cs" />
+    <Compile Include="Text\DefaultFonts.cs" />
+    <Compile Include="Text\FontFamily.cs" />
+    <Compile Include="Text\FontProperties.cs" />
+    <Compile Include="Text\ExportingHTMLText.cs" />
+    <Compile Include="Text\ImportingHTMLText.cs" />
+    <Compile Include="Text\MultipleParagraphs.cs" />
+    <Compile Include="Text\ParagraphBullets.cs" />
+    <Compile Include="Text\ParagraphIndent.cs" />
+    <Compile Include="Text\ParagraphsAlignment.cs" />
+    <Compile Include="Text\ReplacingText.cs" />
+    <Compile Include="Text\ShadowEffects.cs" />
+    <Compile Include="Text\TextBoxHyperlink.cs" />
+    <Compile Include="Text\TextBoxOnSlideProgram.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Shapes\ChangeShapeOrder.cs" />
+    <Compile Include="Shapes\RemoveShape.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
